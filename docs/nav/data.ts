@@ -30,13 +30,13 @@ export const NAV_DATA: NavData[] = [
       {
         title: '文件快递柜-FileCodeBox',
         link: 'https://beet.us.kg/#/',
-        icon: './public/icons/文件.svg',
+        icon: './public/icons/file.svg', // 修改文件名为英文
         desc: '一个方便的文件传输工具。',
       },
       {
         title: 'telegram图床',
         link: 'https://img.zombiepig.cn/dashboard',
-        icon: './public/icons/图床管理.svg',
+        icon: './public/icons/image_management.svg', // 修改文件名为英文
         desc: '基于Telegram的图床服务。',
       },
       {
@@ -54,19 +54,19 @@ export const NAV_DATA: NavData[] = [
       {
         title: '甜菜的博客',
         link: 'https://v.zombiepig.cn/',
-        icon: 'public/icons/博客.svg',
+        icon: 'public/icons/blog.svg', // 修改文件名为英文
         desc: '分享个人见解和经验的博客。',
       },
       {
         title: 'serv00保活',
         link: 'https://xui.zombiepig.cn/',
-        icon: './public/icons/系统.svg',
+        icon: './public/icons/system.svg', // 修改文件名为英文
         desc: '服务器保活管理工具。',
       },
       {
         title: 'xui系统状态',
         link: 'https://xui.bof.us.kg/xui/',
-        icon: './public/icons/系统.svg',
+        icon: './public/icons/system.svg', // 修改文件名为英文
         desc: '查看xui系统状态。',
       },
       {
@@ -80,6 +80,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://esiu.us.kg/',
         icon: './public/icons/memos.svg',
         desc: 'serv00版Memos服务。',
+      },
+      {
+        title: '密码本',
+        link: 'https://text.plei.me/link',
+        icon: './public/icons/mima.svg', // 新增图标文件
+        desc: '加密笔记服务。',
       },
       
       {
